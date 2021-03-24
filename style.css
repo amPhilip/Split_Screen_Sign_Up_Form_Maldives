@@ -24,6 +24,9 @@ body{
     width:500px;
     height:100%;
     background:chartreuse;
+    background: url('maldives.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .left-side{
     display: flex;
@@ -50,12 +53,7 @@ body{
     font-weight: 450;
     margin-bottom: 10px;
 }
-.right-side{
-    background: url('maldives.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
+
 .left-side .heading h3{
     margin-left: -0.8%;
     font-weight: 400;
